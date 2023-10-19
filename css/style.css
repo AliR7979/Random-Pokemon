@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Tilt Neon', sans-serif;
+    text-align: center;
+    margin: 30px auto;
+    color: #c50000;
+}
+
+body {
+    background-color: #eff3ff;
+}
+
+.container {
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#card {
+    position: relative;
+    background: radial-gradient(circle at 90% 0%, orange 40%, #c4e4ff 40%);
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 50px #00000026;
+    border-radius: 10px;
+}
+
+#card img {
+    display: block;
+    /* width: 180px; */
+    max-height: 250px;
+    position: relative;
+    margin:  5px auto;
+}
+
+.hp {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #c4e4ff;
+    border-radius: 30px;
+    margin-left: auto;
+    width: 80px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.Poki-Name {
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center;
+}
+
+.types {
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+}
+
+.hp span,
+.types span {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #000;
+}
+
+.types span {
+    padding: 5px 20px;
+}
+
+.stats1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.stats2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+    margin-inline: auto;
+    word-spacing: 50px;
+
+}
+
+#button {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: medium;
+	box-sizing: border-box;
+    display: block;
+	border: transparent;
+    box-shadow: 0 10px 20px #0000004d;
+	padding: 15px 60px;
+    position: relative;
+    margin: 50px auto;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+    background-color: #a60000;
+    color: white;
+}
+
+footer {
+    font-family: 'Tilt Neon', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 40px;
+    background-color: #eff3ff;
+    color: #9a9a9a;
+}
