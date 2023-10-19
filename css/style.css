@@ -43,7 +43,8 @@ body {
 }
 
 .hp {
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 13px;
     background-color: #c4e4ff;
     border-radius: 30px;
     margin-left: auto;
@@ -71,16 +72,22 @@ body {
     color: #000;
 }
 
+.hp span {
+    font-size: 12px;
+}
+
 .types span {
     padding: 5px 20px;
 }
 
 .stats1 {
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    font-weight: lighter;
 }
 
 .stats2 {
