@@ -10,3 +10,6 @@ The decision to integrate the Pokémon API was drive by my interest in Pokemon s
 Usage and Cost
 
 The Pokémon API we utilize is publicly available and does not incur any charges for its use. It aligns with our commitment to providing a seamless and cost-effective user experience. By leveraging this free API, we aim to make the world of Pokémon accessible to all, fostering an inclusive and enjoyable experience for our users.
+
+API COPYRIGHT: https://pokeapi.co/
+Created by Paul Hallett and other PokéAPI contributors around the world. Pokémon and Pokémon character names are trademarks of Nintendo.
