@@ -1,13 +1,14 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 
 header{
     font-family: 'Tilt Neon', sans-serif;
     text-align: center;
-    margin: 30px auto;
+    margin: 30px;
     color: #c50000;
 }
 
@@ -18,7 +19,7 @@ body {
 .container {
     width: 350px;
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -40%);
     top: 50%;
     left: 50%;
 }
@@ -26,10 +27,11 @@ body {
 #card {
     position: relative;
     background: radial-gradient(circle at 90% 0%, orange 40%, #c4e4ff 40%);
-    width: 100%;
     padding: 30px 20px;
     box-shadow: 0 20px 50px #00000026;
     border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 #card img {
@@ -102,7 +104,7 @@ body {
     box-shadow: 0 10px 20px #0000004d;
 	padding: 15px 60px;
     position: relative;
-    margin: 50px auto;
+    margin: 30px auto;
 	border-radius: 5px;
 	text-transform: uppercase;
 	cursor: pointer;
@@ -114,9 +116,19 @@ footer {
     font-family: 'Tilt Neon', sans-serif;
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%;
     padding: 30px 40px;
-    background-color: #eff3ff;
     color: #9a9a9a;
+}
+
+@media (max-width: 767px) {
+    #card {
+        width: 100%;
+    }
+}
+
+/* Styles for screens smaller than 480px */
+@media (max-width: 480px) {
+    #card {
+        font-size: 14px;
+    }
 }
