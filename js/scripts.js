@@ -41,7 +41,7 @@ let generateCard = (data) => {
             </p>
 
             <img src=${imgSrc} alt="Pikachu">
-            <h2 class="Poki-Name">${data.name}</h2>
+            <h2 class="Poki-Name">${Pokiname.toUpperCase()}</h2>
 
             <div class="types">
 
@@ -64,13 +64,13 @@ let generateCard = (data) => {
 
             <div class="stats2">
                 <div>
-                    <h3>${pokemonAbility1}</h3>
+                    <h3>${pokemonAbility1.replace(/\b\w/g, (letter) => letter.toUpperCase())}</h3>
                 </div>
                 <div>
-                    <h3>${pokemonAbility2}</h3>
+                    <h3>${pokemonAbility2.replace(/\b\w/g, (letter) => letter.toUpperCase())}</h3>
                 </div>
                 <div>
-                    <h3>${pokemonAbility3}</h3>
+                    <h3>${pokemonAbility3.replace(/\b\w/g, (letter) => letter.toUpperCase())}</h3>
                 </div>
             </div>
             `;
@@ -81,7 +81,7 @@ let appendTypes = (types) => {
     // console.log(types);
     types.forEach((type) => {
         let span = document.createElement("span");
-        span.textContent = type.type.name;
+        span.textContent = type.type.name.replace(/\b\w/g, (letter) => letter.toUpperCase());
         console.log(span);
         document.querySelector(".types").appendChild(span);
     });
